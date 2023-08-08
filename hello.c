@@ -1,6 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(void){
-	printf("hello class");
-	return 0;
-}
+int main() {
+	in arr 
