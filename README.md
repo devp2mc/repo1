@@ -1,8 +1,14 @@
+
+
 # Project Title: Kernel Module for Reporting Elapsed Seconds
 
 ## Group Members:
-- **Partik Dev**
+- **Partik Dev** 
 - **Gurman Johal**
 
+## Student ID:
+- **devp2:** 400478418
+- **johalg11:** 400467941
+
 ## Contributions:
-Both group memebers worked togther on the assignment during our lab section. both group memebers eaully contributed ti the assignmnet. However, in paticular, Partik Dev focused on constructing and anylzing the cacualtions for the elapsed time using the `jiffies` and `HZ`. In addtion, Partik created and organized comments for the program while ensuring read ability. Gurman Johal took the role ofconstructing the module and coding the programing files. Gurman tested and compiled the files on the linux enviorment using kernal commands. Both group memebers tested the progra, and have eqaully contributed to the assignment as they worked toghther during the lab.
+Both group members worked together on the assignment during our lab session and contributed equally to the project. In particular, Partik Dev focused on constructing and analyzing the calculations for the elapsed time using `jiffies` and `HZ`. Additionally, Partik created and organized comments for the program, ensuring readability. Gurman Johal lead constructing the module and coding the program files. Gurman tested and compiled the files in the Linux environment using kernel commands. Both group members tested the program and contributed equally to the assignment, working together throughout the lab.
