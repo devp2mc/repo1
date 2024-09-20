@@ -1,7 +1,7 @@
 # Project Title: Kernel Module for Reporting Elapsed Seconds
 
 ## Group Members:
-- **Partik Dev **
+- **Partik Dev**
 - **Gurman Johal**
 
 ## Contributions:
