@@ -11,7 +11,7 @@
 - **johalg11:** 400467941
 
 ## Documentation of AI Usage:
-AI Role: The AI helped in providing an efficient way to remove newline characters from user input using strcspn() and splitting the command into arguments using strtok(). However, in terms of implementation of the code we did that ourselves. We also used it to help understand how background excuations could work for our shell. Knowing that adding `&` would help run the code in the background allowed us to create a condtional statement to check and remove the `&` character. 
+The AI helped in providing an efficient way to remove newline characters from user input using `strcspn()` and splitting the command into arguments using `strtok()`. However, we implemented the code ourselves. We also used AI to help understand how background execution could work in our shell. Knowing that adding `&` would run the command in the background allowed us to create a conditional statement to check for and remove the `&` character.
 
 ## Contributions:
 
