@@ -1,22 +1,22 @@
-# Assignment 3
+# Assignment 4
 
 ## Group Members:
-- **Partik Dev** 
-- **Gurmandeep Johal**
+- **Your Name**
+- **Partner's Name**
 
 ## Student ID:
-- **devp2:** 400478418
-- **johalg11:** 400467941
+- **Your ID:** 
+- **Partner's ID:** 
 
-## Program Explination:
-The program is designed to have 5 students go to the TAs office as these are the students that are assigned to the TA. The number of students can change by altering the defined constant `NUMSTUDENTS`. We have set our `n` number of students to 5. However, this could be changed by modifying the program to accept an integer argument indicating the desired number of student threads. The input would be read in the main function with the `argc` and `argv`. Each student thread would be accounted through thread ID. The number of threads would be created by setting `pthread_t` for students to be a pointer to dynamically allocated data. Moreover, our program ensures that students in the hallway are process in turn and the one that request to vists the TA through the semaphore will be the student/thread to signal the awakening of the TA thread. Additionally, Students will go back to programming if they see that the hallway seats are filled or once they are done visiting the TA's office. Finally the TA will work with students for a random amount of as set by our random timer, but will go to sleep if there are no students to help. 
+## Program Explanation:
+The program we have designed is a Memory Management Simulator which simulates the process of translating logical addresses into physical addresses using paging system, TLB, and  page fault handling. The program uses the `addresses.txt` as its logical adresses.
 
 ## Contributions:
+Both group members contributed equally to the project and collaborated effectively through discussions and coding sessions. However, each member focused on specific areas of the project.
 
-Both group members collaborated equally on the project during lab sessions and via discord communication. However, each member did particular tasks for the assignment.
+**Partik Dev**: Partik focused on constructing the overall process and logic for the the memory management system. This would include designing the address translation process, the TLB cache implementation, and handling page faults. Partik also focused on managing memory allocation and pointers for the file while ensuring that the program properly follows a  FIFO page replacement design. Addtionally, he defined and constructed the functions for address translation and TLB management with proper synchronization between the page table and operations. 
 
-Partik Dev: Focused on constructing the logic for interpreting mutex locks and semaphores. For instance, Partik constructed the logic structure of when students would enter be able to enter the room, when students would be able to seat outside, and when students would need to leave the and return later. Along with the student semaphore logic, Partik constructed the logic for the TA semaphore which would help notify when the TA should help students and when the TA would go back to sleep. Finally, Along with creating the logic Partik would define variables, mutex locks, and semaphores in the code. 
+**Gurmandeep Jhoal**: Gurmandeep heavily focused on implementing the overall program structure and ensuring that the code works altogther in smooth continous fashion. Gurmandeep also was resposnible for setting up the main function and having everthing operate with it. This means he would reading the input from `addresses.txt`, and managing memory operations related to page faults. You also worked on optimizing the I/O for better performance and debugging the program to ensure correct outputs. Additionally, you made the output more user-friendly by formatting the results and adding additional logging for clarity.
 
-Gurmandeep Johal: Focused on implementing and putting together the structure of the code. Gurmandeep would implement the functions involving the routine of the student and the TA. Gurmandeep constructed the code of the main function and the random sleep function to allow time in between each thread that is processed. Additionally, Gurmandeep designed the output to be user friendly and easier user readability for the user. 
+Both group members worked together on debugging and testing the program to ensure that it worked efficiently and accurately.
 
-Both group members worked together on testing, debugging, and finalizing the code for submission.
